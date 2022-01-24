@@ -1,37 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 2</title>
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica 2</title>
+  <link rel="stylesheet" href="/css/style.css">
 
 </head>
+
 <body>
-    <div id="after_submit"></div>
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-  <div class="row">
-    <label class="required" for="name">Your name:</label><br />
-    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-    <span id="name_validation" class="error_message"></span>
-  </div>
-  <div class="row">
-    <label class="required" for="email">Your email:</label><br />
-    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-    <span id="email_validation" class="error_message"></span>
-  </div>
-  <div class="row">
-    <label class="required" for="message">Your message:</label><br />
-    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-    <span id="message_validation" class="error_message"></span>
-  </div>
-    
-    <input id="submit_button" type="submit" value="Send email" />
-</form>
+  <div id="after_submit"></div>
+  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <h1>Dades bàsiques</h1>
+    <div class="row">
+      <label class="required" for="name">Nombre</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" required /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Primer apellido</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" required /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Segundo apellido </label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <br>
+
+    <div class="row">
+      <label class="required" for="name"> Tipo de documento</label><br />
+      <input list="browsers" name="browser">
+      <datalist id="browsers">
+        <option value="DNI">
+        <option value="NIE">
+        <option value="Pasaporte">
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Documento de identidad</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" maxlength="9" size="9" required /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div><br>
+
+    <div class="row">
+      <label class="required" for="name">Eres</label><br />
+      <br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Hombre</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Mujer</label>
+    </div><br>
+    <div class="row">
+      <label for="birthday">Data de nacimiento</label>
+      <input type="date" id="birthday" name="birthday">
+    </div>
+
+    <h1>Dadas de contacto</h1>
+
+    <div class="row">
+      <label class="required" for="email">Your email:</label><br />
+      <input id="email" class="input" name="email" type="text" value="" size="30" required placeholder="jhon@gmail.com"/><br />
+      <span id="email_validation" class="error_message"></span>
+    </div>
+    <br>
+    <div class="row">
+      <label for="phone">Teléfono</label>
+      <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{8}-[0-9]{2}-[0-9]{3}"><br><br>
+    </div>
+    <div class="row">
+      <label class="required" for="name">Vives en Barcelona?</label><br />
+      <br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Si</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">No</label>
+    </div><br>
+    <div class="row">
+      <label class="required" for="name"> Tipo de via</label><br />
+      <input list="via" name="vias">
+      <datalist id="via">
+        <option value="Calle">
+        <option value="Avenida">
+        <option value="Paseo">
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Dirección</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" required /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Número</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" maxlength="3" required /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Piso</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" maxlength="2" required /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Puerta</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" maxlength="2" required /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Escalera</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" maxlength="1" /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Codigo postal</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" maxlength="4" disabled /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <br>
+    <div class="row">
+      <label class="required" for="name">Población</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" disabled /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+
+    <br><br>
+    <input id="submit_button" type="submit" value="Enviar" />
+  </form>
 
 
 
-    
+
 </body>
+
 </html>
