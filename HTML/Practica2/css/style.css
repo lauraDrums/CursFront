@@ -28,3 +28,9 @@ table {
  .imgtabla{
    width: 80%;
  }
+
+ footer{
+   font-family: 'Times New Roman', Times, serif;
+   color: grey;
+   text-align: center;
+ }
