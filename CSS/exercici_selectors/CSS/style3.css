@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.columna {
+    float: left;
+    width: 10%;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 1px;
+}
+
+.fila::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    /* Para que sea responsiva */
+    width: 100%;
+}

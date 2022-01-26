@@ -1,0 +1,20 @@
+.link { color: #FF0000; 
+}
+
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 3rem;
+}
+.enlace1{
+   text-decoration: underline 2px;
+}
+.enlace5{
+ background-color: red;
+ margin-right: 75rem;
+  
+}
+.link5{
+    color: white;
+}
