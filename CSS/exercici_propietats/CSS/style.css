@@ -1,0 +1,195 @@
+
+
+.exercici1{
+  display: inline-flex;
+  background: linear-gradient(to bottom right, rgb(255, 103, 230), rgb(183, 43, 218));
+  margin-top: 5rem;
+}
+.exercici3{
+    display: inline-flex;
+    margin-left: 27%;
+}
+
+.circulo1{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px solid black;
+    background: #ffffff;
+    margin: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.circulo2{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px solid black;
+    background: #ff0000;
+    margin: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.circulo3{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px solid black;
+    box-shadow: 1px 1px 5px #000000; 
+    background: #ffffff;
+    margin: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.circulo4{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px solid rgb(255, 186, 83);
+    background: #fffc69;
+     margin: 0.5rem; 
+     margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.circulo5{
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px solid black;
+    background: #ffffff;
+    margin: 0.5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cajaroja{
+    border: 15px solid rgb(255, 35, 35); 
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.contenido{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.caja1{
+    width: 120px; 
+    height: 100px; 
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 10%;
+    background: #ffffff;
+    margin: 40px;
+}
+.caja2{
+    width: 120px;  
+    height: 100px; 
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 10%;
+    background: #9e3c9e;
+    margin: 40px;
+}
+.caja3{
+    width: 120px;  
+    height: 100px; 
+    border: 1px solid rgb(151, 150, 150);
+    border-radius: 10%;
+    background: #f0cb53;
+    margin: 40px;
+}
+
+.excercici4{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+u{
+    text-decoration: underline 2px rgb(124, 172, 62);
+    color: rgb(124, 172, 62);
+}
+.palabraroja{
+    color: rgb(255, 35, 35);
+    font-weight:bold 
+    
+}
+.arribayabajo{
+    text-decoration: underline overline;
+}
+.h1{
+    font-weight:bold;
+    font-size:30px;
+}
+.colorazul{
+    color: blue;
+    font-weight:bold;
+    font-size:20px;
+}
+.rojosubrayado{
+    color: red;
+    text-decoration: underline 2px;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.exercici5{
+    background-color: rgb(245, 190, 190);
+    
+}
+h2{
+    padding-top: 1rem;
+}
+p{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: justify;
+    text-align: center;
+    
+}
+.estilocaja{
+    margin-left: 0.5rem;
+    margin-right: 00.5rem;
+}
+
+.img1{
+    background-image: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 90rem;
+    border: 1px solid rgb(2, 2, 2);
+    margin-bottom: 0.5rem;
+}
+.img2{
+    background-color: rgb(245, 190, 190);
+    border: 1px solid rgb(2, 2, 2);
+    margin-bottom: 0.5rem;
+}
+.img3{
+    background-image: url("../img/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 90rem;
+    border: 1px solid rgb(2, 2, 2);
+    margin-bottom: 0.5rem;
+}
+.img4{
+    background-image: url("../img/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 90rem;
+    border: 1px solid rgb(2, 2, 2);
+    margin-bottom: 1 rem;
+    
+
+}
