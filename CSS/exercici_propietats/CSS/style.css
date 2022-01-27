@@ -76,14 +76,14 @@
 
 .cajaroja{
     border: 15px solid rgb(255, 35, 35); 
-    margin-left: 8rem;
-    margin-right: 8rem;
+    padding: 20px;
 }
 
-.contenido{
+/* .contenido{
     margin-bottom: 1rem;
-    margin-left: 1rem;
-}
+    margin-right: 2rem;
+    text-align: left;
+} */
 
 .caja1{
     width: 120px; 
@@ -150,11 +150,11 @@ u{
 h2{
     padding-top: 1rem;
 }
-p{
+.textoejercicio5{
     margin-left: 35%;
     margin-right: 35%;
     text-align: justify;
-    text-align: center;
+    text-align: center; 
     
 }
 .estilocaja{
@@ -163,10 +163,10 @@ p{
 }
 
 .img1{
-    background-image: url("../img/fondo1.jpg");
+    background-image: url("../img/fuego.png"), url("../img/fuego.png"), url("../img/fondo1.jpg"); 
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 90rem;
+    background-position: right bottom, left bottom, left top, right top;
+    background-size: 4rem, 4rem, cover;
     border: 1px solid rgb(2, 2, 2);
     margin-bottom: 0.5rem;
 }
@@ -176,18 +176,18 @@ p{
     margin-bottom: 0.5rem;
 }
 .img3{
-    background-image: url("../img/fondo2.jpg");
+    background-image: url("../img/ojo.png"), url("../img/fondo2.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 90rem;
+    background-position: 50%;
+    background-size: 7rem, cover;
     border: 1px solid rgb(2, 2, 2);
     margin-bottom: 0.5rem;
 }
 .img4{
-    background-image: url("../img/fondo3.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 90rem;
+    background-image: url("../img/caballo.png"), url("../img/fondo3.jpg");
+    background-repeat: repeat-x, no-repeat; 
+    background-position: bottom;
+    background-size: 4rem, cover;
     border: 1px solid rgb(2, 2, 2);
     margin-bottom: 1 rem;
     
