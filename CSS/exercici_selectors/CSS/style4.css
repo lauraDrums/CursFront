@@ -1,17 +1,26 @@
 li{
-    background-image: url(../img/Flecha.png) ;
+    background-image: url(../img/flecha_inactiva.png) ;
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 25px;
+    background-size: 20px;
     list-style: none;
     border: 0.5px solid black;
     background-color: rgb(221, 221, 221);
     padding: 3px;
-    padding-left: 30px;
+    padding-left: 25px;
     margin-right: 65rem;
 }
 
 a{
     text-decoration: none;
-    color: rgb(73, 73, 73);
+    color: rgb(243, 243, 243);
+    
+}
+li:hover{
+    background-color: rgb(196, 195, 195);
+    background-image: url(../img/flecha_activa.png);
+}
+
+span{
+    color: black;
 }
