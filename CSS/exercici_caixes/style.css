@@ -1,0 +1,74 @@
+body{
+    width: 710px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* <!-- Excercici 1 --> */
+.caixa{
+    display: inline-block;
+    background-color: antiquewhite;
+    width: 130px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 20px;
+}
+
+.primeracol{
+    display: inline-block;
+    width: 320px;
+    border: 1px solid black;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+
+
+/* <!-- Excercici 2 --> */
+
+.segundacol{
+    
+    width: 700px;
+    border: 1px solid black;
+    
+    padding: 10px;
+    margin: 10px;
+}
+
+.segundacol2{
+    display: inline-block;
+    text-align: right;
+}
+
+.derecha{
+    text-align: right;
+}
+ .segundacol1{
+    display: inline-block;
+    
+}
+
+/* <!-- Excercici 3 --> */
+
+.terceracol{
+    display: inline-block;
+    width: 320px;
+    border: 1px solid black;
+    margin-left: 5px;
+    padding: 10px;
+   
+}
+
+
+.terceracol2{
+    
+    float: right;
+    background-color: grey;
+    margin-left: 5px;
+    padding: 10px;
+
+}
+
+
+/* <!-- Excercici 4 --> */
