@@ -5,7 +5,7 @@ body{
 }
 
 
-/* <!-- Excercici 1 --> */
+/* <!-- Exercici 1.1 --> */
 .caixa{
     display: inline-block;
     background-color: antiquewhite;
@@ -25,7 +25,7 @@ body{
 
 
 
-/* <!-- Excercici 2 --> */
+/* <!-- Exercici 1.2 --> */
 
 .segundacol{
     
@@ -36,9 +36,15 @@ body{
     margin: 10px;
 }
 
+.segundacol1{
+    border: 1px solid black;
+    width: 75%;
+}
+
 .segundacol2{
     display: inline-block;
-    text-align: right;
+    border: 1px solid black;
+    width: 20%;
 }
 
 .derecha{
@@ -49,7 +55,7 @@ body{
     
 }
 
-/* <!-- Excercici 3 --> */
+/* <!-- Exercici 1.3 --> */
 
 .terceracol{
     display: inline-block;
@@ -71,4 +77,12 @@ body{
 }
 
 
-/* <!-- Excercici 4 --> */
+/* <!-- Exercici 1.4 --> */
+
+.cuartacol2{
+float: right;
+}
+.cuartacol1{
+    float: left;
+}
+

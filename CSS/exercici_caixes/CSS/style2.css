@@ -1,0 +1,62 @@
+/* Exercici 2 */
+
+.encabezado {
+  text-align: center;
+  background-color: rgb(255, 209, 57);
+  padding: 5%;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.col1 {
+  float: left;
+  margin: auto;
+  width: 33.3%;
+  background-color: rgb(207, 181, 250);
+  padding-bottom: 15%;
+}
+.col2 {
+  float: left;
+  margin: auto;
+  width: 33.3%;
+  background-color: rgb(248, 255, 151);
+  padding-bottom: 15%;
+}
+.col3 {
+  float: left;
+  width: 33.3%;
+  background-color: rgb(255, 179, 151);
+  padding-bottom: 15%;
+}
+.pcol {
+  padding-left: 3%;
+  padding-top: 1%;
+  margin: 0%;
+  font-size: 0.7rem;
+}
+
+.final {
+  clear: both;
+  content: "";
+  text-align: center;
+  background-color: rgb(250, 138, 104);
+  padding: 0.5em;
+  font-size: 1rem;
+}
+
+@media (max-width: 620px) {
+
+.encabezado{
+    font-size: 0.8rem;
+}
+
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
+}

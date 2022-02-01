@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(233, 233, 233);
+  margin: 8px 50px 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+.containerbox {
+  border: 5px solid rgb(176, 211, 252);
+  width: 10%;
+  padding: 2rem;
+  background-color: rgb(91, 168, 255);
+}
