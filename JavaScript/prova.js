@@ -20,18 +20,62 @@
 // console.log("divisió =" + (a/b));
 // console.log("modul =" + (a%b));
 
- var modul = 9%2;
+//  var modul = 9%2;
 
-if(modul==1){
-    console.log("true");
+// if(modul==1){
+//     console.log("true");
     
-}
-else{
-    console.log("false")
-}
+// }
+// else{
+//     console.log("false")
+// }
 
 // var a, b, c;
 // console.log("Declaració de variables");
 // console.log("a = "+a+"");
 // console.log("b = "+b+"");
 // console.log("c = "+c+"");
+
+// let a;
+// let b;
+
+// a = 10;
+// b = 20;
+
+// let total = a + b;
+// console.log("total = " + total);
+
+// let im;
+// let youre;
+
+// im = "I\m = I am";
+// youre = "You\'re = you are"
+
+// alert(im + "\n" + youre);
+
+// let marca = "total" + 16 + 4;
+// console.log(marca);
+
+let a = +prompt("Dime tu altura en cm");
+parseInt("a");
+let b = +prompt("Dime tu peso");
+parseInt("b");
+
+var imc = b/((a/100)*(a/100));
+document.getElementById("demo").innerHTML=imc;
+
+// //declarem la variable a
+// var a;
+// //mostrem el valor de la variable per consola
+// console.log(a); // undefined
+// //mostrem el tipus de la variable per consola
+// console.log(typeof a); // undefined
+// //assignem el número 17
+// a = 17;
+// console.log(a); // 17
+// console.log(typeof a); // number
+// a=0.17;
+// console.log(a); // 0.17
+// console.log(typeof a); // number
+// a=17e3;
+// console.log(a); //17000 en base 10
