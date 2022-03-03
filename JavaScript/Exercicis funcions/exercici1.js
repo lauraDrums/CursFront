@@ -181,3 +181,23 @@ function separatGuio(paraulaGuio) {
 
 let paraulaGuio = "Vaig comprar quatre cases"
 console.log(separatGuio(paraulaGuio))
+
+// Fes una funció que donat un número de DNI, calculi si la lletra és correcta. Tingues
+// present que la lletra del DNI es calcula en dos passos:
+// a. Calcular el mòdul del número del DNI respecte 23
+// b. El resultat de l’operació anterior ha de correspondre a la posició del següent
+// string:
+// var lletres =”TRWAGMYFPDXBNJZSQVHLCKE”;
+
+function dniCorrecte(dni) {
+    const letersList = "TRWAGMYFPDXBNJZSQVHLCKE";
+    console.log("DNI introduït: " + dni);
+}
+let dniNumber = (parseInt(dni.substring(0,8)));
+console.log("comprovem si estem agafant bé el número:" + dniNumber );
+
+let dniLletra = dni.charArt(8);
+console.log("comprovem si estem agafant bé la lletra: " + dniLletra);
+
+let lletraCorrecte = letersList.charArt(dniNumber % 23);
+console.log("object");
