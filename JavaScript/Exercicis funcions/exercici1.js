@@ -61,10 +61,12 @@ function numMenor(num1, num2) {
         console.log("El segon número es menor");
         return num2
     
-    } else{
-        console.log("els numeros son iguals");
+    } else if (num1>=num2){
+        console.log("el primer número es menor");
         return num1
-    }
+    } else{
+        console.log("els números son iguals");
+    } 
 }
 var numMen;
 
@@ -77,19 +79,30 @@ console.log(numMen);
 numMen = numMenor(10, 10);
 console.log(numMen);
 
+// 2 manera
+function compararValors(val1, val2) {
+    menor = Math.min(val1, val2)
+    return menor;
+}
+ var menor;
+ menor = compararValors(5,6);
+ console.log("el valor mes petit es " + menor);
+
 // 4. Programa en JavaScript una funció on se li passi dos arguments: string1 -frase- i
 // string2-frase-, i retorna quants caràcters hi ha en total = string1 + string2.
 
-let palabra1 = "El otro día cené pizza";
-let palabra2 = "El jueves fuí a Sevilla";
-var total; 
+
 
 function numCaracters(palabra1, palabra2) {
      let total = palabra1.length + palabra2.length;
      return total;
 }
 
-numCaracters(palabra1, palabra2);
+let palabra1 = "El otro día cené pizza";
+let palabra2 = "El jueves fuí a Sevilla";
+let totalCaracteres;
+
+totalCaracteres = numCaracters(palabra1, palabra2);
 console.log(numCaracters(palabra1, palabra2));
 
 
@@ -114,8 +127,10 @@ console.log(2 + 2);
 function validarEmail( adreça ) {
     if ( adreça.includes('@')) {
         console.log("la Adreça es valida");
+        return true;
     } else{
         console.log("La adreça no es valida");
+        return false
     }
 }
 
@@ -131,7 +146,7 @@ validarEmail(adreça);
 
 // .lengh entre 2 i redondear slice a)
 
-let fraseDiv = "Voy a tomar caracoles para cenar"
+
 
 function dividirFra(fraseDiv) {
     let divisioFra = Math.floor(fraseDiv.length/2)
@@ -140,7 +155,7 @@ function dividirFra(fraseDiv) {
     return resultado;
 }
 
-
+let fraseDiv = "Voy a tomar caracoles para cenar"
 console.log(dividirFra(fraseDiv));
 
 // b)  Funció per Imprimir el darrer caràcter.
@@ -181,3 +196,9 @@ function separatGuio(paraulaGuio) {
 
 let paraulaGuio = "Vaig comprar quatre cases"
 console.log(separatGuio(paraulaGuio))
+
+// e. Funció per Imprimir la quantitat de vocals sense accents emmagatzemades.
+
+
+
+
