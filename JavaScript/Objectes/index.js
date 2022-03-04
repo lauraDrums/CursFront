@@ -30,6 +30,7 @@ const producte3 ={
 console.log(producte1.name);
 console.log(producte2.name);
 console.log(producte3.name);
+console.table(producte1);
 
 // nos devolverá un array con los keys del objeto
 console.log(Object.keys(producte1));
@@ -62,3 +63,25 @@ carList ={
 }
 
 console.log(carList);
+
+// const meses = new Array['Enero', 'Febrero', 'Marzo', 'Abril',
+// 'Mayo', 'Junio'];
+// // meses.push('flor');
+
+// console.log(meses);
+
+// const numeros = new Array(1, 2, 3, 4, 5, "flor")
+// numeros.push("hola");
+// console.log(numeros);
+
+var meses = ["hola", "casa", "patio"];
+console.log(meses);
+
+const prueba =[1, 2, 3, 4, 5, 6, 7, 8, 9];
+const total = 10;
+
+for (let i = 0; i < prueba.length; i++) {
+    console.log(prueba[i]);
+    console.log(prueba[i] * total) ;
+    
+}
