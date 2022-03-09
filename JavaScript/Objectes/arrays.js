@@ -103,14 +103,15 @@ console.log(primerEx(num1, num2));
 function rebCadena(cadenaCara) {
     let retonaCaracter =[];
     for (let i = 0; i < cadenaCara.length; i++) {
-        retonaCaracter.push(cadenaCaracters[i].length);      
+        retonaCaracter.push(cadenaCara[i].length);
+        console.log(cadenaCara[i]);      
     }
     return retonaCaracter;
 }
 let cadenaCaracters = ["hola", "adeu", "fins Aviat", "ciao", "ey"]
 
-console.log(cadenaCaracters,rebCadena(cadenaCaracters));
-console.log(rebCadena(cadenaCaracters));
+console.log("mostrem els caracters: " + cadenaCaracters,rebCadena(cadenaCaracters));
+console.log("mostrem el numero de caracters: " + rebCadena(cadenaCaracters));
 
 // 3. Donat el següent array d’objectes
 const carret = [{
